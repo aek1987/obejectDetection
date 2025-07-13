@@ -1,9 +1,9 @@
-"# Projet de D�tection d'Objets" 
+
 import tensorflow as tf
 import numpy as np
 import cv2
 
-# Charger le modèle MobileNet pré-entraîné
+# Charger le modèle MobileNetV2 pré-entraîné
 model = tf.keras.applications.MobileNetV2(weights="imagenet")
 
 # Charger et préparer l'image
